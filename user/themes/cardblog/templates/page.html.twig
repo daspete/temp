@@ -1,0 +1,15 @@
+{% extends 'base/base.html.twig' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col l12">
+            {{ page.content }}
+
+            {% include 'partials/donationbutton.html.twig' %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    {% include 'partials/footer.html.twig' %}
+{% endblock %}

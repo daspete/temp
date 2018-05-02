@@ -1,0 +1,16 @@
+title: 'Das PeTe Tutorials'
+author:
+  name: 'Peter Braith'
+  email: daspetemail@gmail.com
+taxonomies:
+  - category
+  - tag
+summary:
+  enabled: true
+  format: short
+  size: 100
+  delimiter: '==='
+metadata:
+    keywords: free,webgl,unity3d,phaser,js,peter,braith,daspete,tutorial,course,learn,learning,online,web,js,c#,csharp,pattern,programming,coding,code,component,monobehaviour
+    description: Web and Game development made easy
+    image: default.jpg

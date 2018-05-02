@@ -1,0 +1,20 @@
+{% extends 'base/base.html.twig' %}
+{% block content %}
+    {% set pageContent = page.content | slice(page.summary | length) %}
+    <div class="row">
+        <div class="col l12">
+            {{ pageContent }}
+
+            {% include 'partials/listitems.html.twig' %}
+
+            {% include 'partials/donationbutton.html.twig' %} 
+
+            {% if config.plugins.jscomments.enabled %}
+                {{ jscomments() }}
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
+{% block footer %}
+    {% include 'partials/footer.html.twig' %}
+{% endblock %}

@@ -1,0 +1,8 @@
+{% set itemCollection = taxonomy.findTaxonomy({'tag': page.header.listitems}, 'or') %}
+{% set itemCollection = itemCollection.order('folder') %}
+
+<div class="row">
+    {% for p in itemCollection %}
+        {% include 'partials/card.html.twig' %}
+    {% endfor %}
+</div>

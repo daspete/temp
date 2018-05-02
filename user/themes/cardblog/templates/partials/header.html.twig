@@ -1,0 +1,16 @@
+{% set collection = taxonomy.findTaxonomy({'category':['list','page']},'or') %}
+{% set collection = collection.order('folder') %}
+
+<header>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="/" class="brand-logo right">DasPeTe Tutorials</a>
+            <ul class="left">
+                {% for p in collection %}
+                    <li{% if p.active %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+    </nav>
+</header>

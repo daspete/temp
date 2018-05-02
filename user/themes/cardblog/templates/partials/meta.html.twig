@@ -1,0 +1,11 @@
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="True">
+{% if page.header.metadata.image %}
+    {% set headerImage = page.media[page.header.metadata.image] %}
+{% else %}
+    {% set headerImage = page.find('/images/sharing').media[site.metadata.image] %}
+{% endif %}
+{% include 'partials/meta/searchengine.html.twig' %}
+{% include 'partials/meta/facebook.html.twig' %}
+{% include 'partials/meta/twitter.html.twig' %}

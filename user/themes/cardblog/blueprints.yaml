@@ -1,0 +1,9 @@
+name: CardBlog
+version: 0.0.1
+description: CardBlog - a Pinterest styled blog theme
+author: 
+  name: Peter Braith
+  email: daspetemail@gmail.com
+  url: http://tutorials.daspete.at
+keywords: cardblog, pinterest, blog, theme, modern, fast, responsive
+license: MIT

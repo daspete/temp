@@ -1,0 +1,48 @@
+
+
+#cookieChoiceInfo div:first-child {
+    background-color: #000 !important;
+    color: #fff;
+    font-size: medium;
+    line-height: 18px;
+    padding: 10px !important;
+}
+
+#cookieChoiceInfo span {
+    display: block;
+}
+
+#cookieChoiceInfo a {
+    float: right;
+    margin-top: 14px;
+    padding: 6px;
+    border: 1px solid #333;
+    background-color: #d5911a;
+    color: #fff;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -khtml-border-radius: 6px;
+}
+
+.separator{
+    clear: both;
+}
+
+@media screen and (max-width : 768px) {
+    #cookieChoiceInfo {
+        text-align: center;
+    }
+
+    #cookieChoiceInfo a {
+        display: block;
+        float: none;
+        max-width: 100px;
+        margin: 6px auto !important;
+    }
+
+    #cookieChoiceInfo > div:nth-child(2), #cookieChoiceInfo > div:nth-child(2) > div {
+        top: 10px !important;
+        margin-top: 0 !important;
+    }
+}

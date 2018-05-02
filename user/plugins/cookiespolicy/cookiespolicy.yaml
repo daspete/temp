@@ -1,0 +1,3 @@
+enabled: true
+type: dialog
+url: 'http://example.com/privacy-url'

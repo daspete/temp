@@ -1,0 +1,11 @@
+email: daspetemail@gmail.com
+fullname: 'Das PeTe'
+title: Admin
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$m10CksOQmrXevh69Zq.e9u1mLTwhxA8EMkQG67U3EX9V5yHtj8oYe
